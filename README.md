@@ -1,7 +1,7 @@
 
 # Project Title
 
- LightGBM and Neptune Inegration for Regression Models 
+ LightGBM and Neptune Integration for Regression Models.
 
 # Lightgbm.neptune
 This Repo will contain LightGBM and Neptune Inegration for Regression Models.

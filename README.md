@@ -11,18 +11,8 @@ Training and validation metrics
 Parameters
 Feature names, num_features, and num_rows for the train set
 Hardware consumption metrics
-stdout and stderr streams
+Stdout and stderr streams
 Training code and Git commit information
-
-
-
-## Contributing
-
-Contributions are always welcome!
-
-See `contributing.md` for ways to get started.
-
-Please adhere to this project's `code of conduct`.
 
 
 ## Documentation

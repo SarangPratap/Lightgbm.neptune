@@ -1,7 +1,7 @@
 
-# Project Title
+#Optuna Hpyerparameter tuning  and Neptune Integration for Regression Models using LightGBM
 
- LightGBM and Neptune Integration for Logging Hyperparametertuing by Optuna Framework for Regression Models.
+ 
 
 # Lightgbm.neptune
 This Repo will contain Optuna Hyperparameter tuning its and Neptune Integration for Regression Models using LightGBM.

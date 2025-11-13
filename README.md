@@ -4,7 +4,7 @@
  LightGBM and Neptune Integration for Regression Models.
 
 # Lightgbm.neptune
-This Repo will contain LightGBM and Neptune Inegration for Regression Models.
+This Repo will contain LightGBM and Neptune Integration for Regression Models.
 LightGBM is a gradient-boosting framework that uses tree-based learning algorithms. 
 With the Neptune-LightGBM integration, the following metadata is logged automatically:
 Training and validation metrics

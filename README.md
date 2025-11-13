@@ -1,34 +1,54 @@
+# Optuna Hyperparameter Tuning & Neptune Integration for Regression Models using LightGBM
 
-#**Optuna Hpyerparameter tuning  and Neptune Integration for Regression Models using LightGBM**
+This repository demonstrates how to combine **Optuna** for hyperparameter optimization, **LightGBM** for regression modeling, and **Neptune.ai** for experiment tracking. The goal is to streamline model experimentation, automatically log key metadata, and monitor training performance in real time.
 
- 
+---
 
-# Lightgbm.neptune
-This Repo will contain Optuna Hyperparameter tuning its and Neptune Integration for Regression Models using LightGBM.
-LightGBM is a gradient-boosting framework that uses tree-based learning algorithms. 
-With the Neptune-LightGBM integration, the following metadata is logged automatically:
-Training and validation metrics
-Parameters
-Feature names, num_features, and num_rows for the train set
-Hardware consumption metrics
-Stdout and stderr streams
-Training code and Git commit information
+## Table of Contents
 
+- [Overview](#Overview)
+- [Features](#Features)
+- [Installation](#Installation)
 
-## Documentation
+- [Documentation](#Documentation)
+- [License](#License)
+- [Acknowledgments](#Acknowledgments)
 
-[Documentation](https://docs.neptune.ai/integrations/lightgbm/)
+---
 
+## Overview
+
+**Optuna** is an automatic hyperparameter optimization framework that uses a _define-by-run_ interface, integrating seamlessly with modern ML workflows.
+
+**LightGBM** is a high-performance gradient boosting framework using tree algorithms, optimized for speed and large datasets.
+
+**Neptune.ai** serves as an experiment tracking and model registry platform. Its integration with LightGBM and Optuna allows for automatic metadata logging without manual setup.
+
+---
 
 ## Features
-With the Neptune-LightGBM integration, the following metadata is logged automatically:
-Training and validation metrics
-Parameters.
-Feature names, num_features, and num_rows for the train set
-Hardware consumption metrics
-stdout and stderr streams
-Training code and Git commit information
+
+With Neptune–LightGBM integration, the following metadata is logged automatically:
+
+- Training and validation metrics
+- Model hyperparameters
+- Dataset info: feature names, number of features, number of rows
+- Hardware consumption metrics: CPU, GPU, memory usage
+- Standard output and error streams
+- Training code and Git commit info
+
+Neptune–Optuna integration logs:
+
+- Trial parameters and objective values
+- Optimization history and Pareto fronts
+- Study progress and parameter importance visualizations
+
+---
+
 ## Installation
+
+Install all required packages:
+
 
 
 ```bash
@@ -39,4 +59,26 @@ neptune-optuna                1.2.0
 
 pip install neptune neptune-lightgbm neptune-optuna
 ```
-    
+
+---
+
+## Documentation
+
+For more details, visit:  
+[Neptune-LightGBM Integration Documentation](https://docs.neptune.ai/integrations/lightgbm/)
+
+---
+
+## License
+
+Released under the MIT License.
+
+---
+
+## Acknowledgments
+
+- [Optuna](https://optuna.org/)  
+- [LightGBM](https://github.com/microsoft/LightGBM)  
+- [Neptune.ai](https://neptune.ai/)
+
+

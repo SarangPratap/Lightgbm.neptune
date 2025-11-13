@@ -1,10 +1,10 @@
 
 # Project Title
 
- LightGBM and Neptune Integration for Regression Models.
+ LightGBM and Neptune Integration for Logging Hyperparametertuing by Optuna Framework for Regression Models.
 
 # Lightgbm.neptune
-This Repo will contain LightGBM and Neptune Integration for Regression Models.
+This Repo will contain Optuna Hyperparameter tuning its and Neptune Integration for Regression Models using LightGBM.
 LightGBM is a gradient-boosting framework that uses tree-based learning algorithms. 
 With the Neptune-LightGBM integration, the following metadata is logged automatically:
 Training and validation metrics
